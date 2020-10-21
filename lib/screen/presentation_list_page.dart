@@ -49,14 +49,6 @@ class _PresentationListPageState extends State<PresentationListPage> {
               );
             },
           ),
-          Align(
-            alignment: Alignment.bottomRight,
-            child: FloatingActionButton(
-                child: Icon(Icons.send),
-                onPressed: () {
-                  // openDialog();
-                }),
-          )
         ],
       ),
     );
